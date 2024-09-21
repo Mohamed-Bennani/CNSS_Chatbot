@@ -12,6 +12,7 @@ Mistral Model (via Ollama API): Provides the language model used to generate res
 FAISS: For efficient similarity search on embedded document chunks.
 LlamaParse: A custom parser used to process and chunk CNSS documents.
 NumPy: For handling embeddings as numeric arrays.
+
 # Installation
 Clone the repository
 
@@ -26,13 +27,19 @@ Install the required dependencies:
 
 
 pip install -r requirements.txt
+
+Create a .env file in the root of your project and add your LLAMA_CLOUD_API_KEY:
+
+LLAMA_CLOUD_API_KEY="your-llama-api-key-here"
+
 Make sure you have the Mistral model running locally via Ollama and the required CNSS documents in the ./data directory.
 
 Run the Flask app:
 
 
-python App.py
-Open your browser and go to http://127.0.0.1:5000/ to interact with the chatbot.
+App.py
+
+-Open your browser and go to http://127.0.0.1:5000/ to interact with the chatbot.
 
 # Usage
 The chatbot can answer questions related to CNSS in Morocco.
