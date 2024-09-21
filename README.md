@@ -55,4 +55,7 @@ It supports voice commands, allowing users to speak their queries instead of typ
 "Quels sont les documents requis pour l'inscription à la CNSS ?"
 
 # Chatbot Interface Overview
-![Screen](https://github.com/user-attachments/assets/eff438cb-9794-4879-a541-00b47ee67770)
+![Capture d’écran 2024-09-21 124126](https://github.com/user-attachments/assets/acf5a924-2df1-42e3-bb2b-c08f2ef097bb)
+
+![Capture d’écran 2024-09-21 130315](https://github.com/user-attachments/assets/5111da50-4bf0-405d-a6fa-2339e5755437)
+
